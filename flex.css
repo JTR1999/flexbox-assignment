@@ -1,7 +1,6 @@
 /* Box-sizing border-box */
 * { box-sizing: border-box; }
 
-
 /* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
 [class^="box"] {
   color:white;
@@ -74,3 +73,5 @@
 .box10 {
     order: 9;
 }
+
+@media screen and (max-width:480px) {}
